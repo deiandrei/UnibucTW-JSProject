@@ -9,6 +9,7 @@ function getInputByType(type, className, placeholder) {
     input.className = className;
     input.placeholder = placeholder;
     input.type = type;
+    input.name = placeholder;
 
     return input;
 }
